@@ -1,0 +1,43 @@
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.halaman {
+    width: 600px;
+    margin: auto;
+}
+
+.judul-tugas {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+th, td {
+    border: 1px solid #777;
+    padding: 7px 5px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+th[colspan="9"] {
+    font-size: 20px;
+}
+
+td:nth-child(2) {
+    text-align: left;
+    white-space: nowrap;
+}

@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+}
+
+.judul-tugas {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.kartu {
+    width: 900px;
+    margin: auto;
+    padding: 15px;
+    background-color: #d3edf5;
+    box-sizing: border-box;
+}
+
+.kepala {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 95px;
+}
+
+.garuda {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    position: absolute;
+    left: 25px;
+}
+
+.judul-kk {
+    text-align: center;
+}
+
+.judul-kk h1 {
+    font-size: 24px;
+    margin: 0 0 5px;
+}
+
+.judul-kk h3 {
+    font-size: 14px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px 3px;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+th {
+    font-weight: bold;
+}
+
+.tabel-identitas {
+    margin-top: 10px;
+}
+
+.tabel-anggota {
+    margin-top: 10px;
+}
+
+.tabel-anggota th[colspan="8"] {
+    font-size: 11px;
+    padding: 7px;
+}
